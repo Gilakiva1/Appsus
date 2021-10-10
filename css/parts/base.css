@@ -1,0 +1,9 @@
+button:hover {
+    cursor: pointer;
+}
+
+body{
+    margin: 0;
+    background-color: #dee2e6;
+    font-family: euro;
+}

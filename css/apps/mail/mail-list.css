@@ -1,0 +1,49 @@
+.email-container {
+    cursor: pointer;
+    align-items: center;
+    flex-grow: 9;
+}
+
+.big-email-container:hover {
+    box-shadow: 4px 1px 8px 0px black;
+}
+
+.email-container:hover .btn-email-container {
+    visibility: visible;
+}
+
+.big-email-container {
+    outline: 1px solid grey;
+    cursor: pointer;
+    align-items: center;
+    justify-content: space-between;
+    gap: 5px;
+    margin-right: 20px;
+}
+
+.big-email-container:hover .star {
+    visibility: visible;
+}
+
+.btn-email-container {
+    visibility: hidden;
+    width: 25px;
+    height: 25px;
+}
+
+.star-container {
+    flex-grow: 1;
+}
+
+.star {
+    width: 20px;
+    height: 20px;
+}
+
+.email-right-container,
+.email-left-container {
+    gap: 5px;
+    align-items: center;
+}
+
+@media (max-width:770) {}

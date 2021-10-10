@@ -1,0 +1,20 @@
+.preview-container {
+    outline: 1px solid grey;
+    margin-right: 20px;
+}
+
+.preview-btn {
+    border: none;
+    border-radius: 50%;
+    background-color: rgb(157 151 151 / 71%);
+    margin-right: 3px;
+    margin-top: 3px;
+    box-shadow: rgb(157 151 151 / 71%);
+    text-align: center;
+    cursor: pointer;
+}
+
+.preview-sub-header {
+    opacity: 0.5;
+    font-weight: 100;
+}

@@ -1,0 +1,50 @@
+@import url(./cmps/app-home.css);
+@import url(./cmps/app-about.css);
+@import url('./cmps/app-header.css');
+@import url(./parts/base.css);
+@import url('./parts/fonts.css');
+@import url('./parts/helpers.css');
+@import url(./apps/mail/mail-index.css);
+@import url(./apps/mail/mail-folder-list.css);
+@import url(./apps/mail/mail-list.css);
+@import url(./apps/mail/mail-add.css);
+@import url(./apps/mail/mail-preview.css);
+@import url('./apps/mail/mail-index.css');
+@import url('./apps/keep/note-img.css');
+@import url('./apps/keep/add-note.css');
+@import url('./apps/keep/note-video.css');
+@import url('./apps/keep/note-tools.css');
+@import url('./apps/keep/note-txt.css');
+@import url('./apps/keep/note-list.css');
+@import url('./apps/keep/note-todo.css');
+@import url(./apps/keep/note-app.css);
+@import url(./apps/keep/note-filter.css);
+@import url(./apps/mail/mail-details.css);
+
+/* @import url(/app/mail/-details.css); */
+
+@import url(./apps/keep/note-img.css);
+@import url('./apps/keep/add-note.css');
+@import url('./apps/keep/note-video.css');
+.user-msg {
+    position: fixed;
+    text-align: center;
+    height: 60px;
+    width: 250px;
+    padding: 5px;
+    left: 10px;
+    bottom: 10px;
+    border-radius: 5px;
+    background-color: #212529;
+    color: cornsilk;
+}
+
+.btn-x {
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-radius: 20%;
+    background-color: transparent;
+    border: none;
+    color: cornsilk;
+}

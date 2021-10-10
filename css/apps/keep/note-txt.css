@@ -1,0 +1,38 @@
+.note-txt{
+    margin: 5px;
+    /* border: 1px solid black; */
+
+}
+.note-txt > .container:first-child{
+        border-bottom: 1px solid black;
+
+}
+
+.note-txt :not(:last-child ){
+    
+    padding: 5px;
+    
+}
+
+.container img {
+    width: 20px;
+    height: 30px;
+}
+
+.edit-done{
+    cursor: pointer;
+    
+}
+
+.note-txt:hover .edit-done{
+    visibility: visible;
+}
+
+.edit{
+    cursor: pointer;
+    visibility: hidden;
+}
+
+.note-txt:hover .edit{
+    visibility: visible;
+}

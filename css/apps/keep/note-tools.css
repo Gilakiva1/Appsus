@@ -1,0 +1,14 @@
+.note-tools{
+    visibility: hidden;
+}
+
+.note-list div:hover .note-tools{
+    visibility: visible;
+}
+
+.bg-color {
+    visibility: hidden;
+}
+.note-tools label img {
+    width: 45px;
+}

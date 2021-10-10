@@ -1,0 +1,69 @@
+.header-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-bottom: 1px solid rgb(120, 217, 235);
+    height: 140px;
+    color: white;
+    background-color: #212529;
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+}
+.headline {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2rem;
+    margin-left: 5px; 
+}
+
+.links-container {
+    display: flex;
+    height: 30px;
+    gap: 15px;
+}
+.links-container img {
+    height: 20px;
+}
+
+.links-container a {
+    margin-right: 5px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-decoration:none;
+    color: inherit;
+    height: 100%;
+}
+
+.links-container :hover {
+    opacity: 0.8;
+    text-decoration:underline;
+
+}
+@media (max-width:600px){
+    .header-container {
+        flex-direction: column;
+    }
+    
+}
+
+@media (min-width:600px){
+    .home::after{
+        content:' Home'
+    }
+    .about::after{
+        content:' About'
+    }
+    .mail::after{
+        content:' Mail'
+    }
+    .keep::after{
+        content:' Notes'
+    }
+    .header-container {
+       
+        justify-content: space-between;
+     
+    }
+    
+}

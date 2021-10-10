@@ -1,0 +1,36 @@
+.main-container-mail {
+    margin-top: 30px;
+    gap: 20px
+}
+
+.menu-container-mail {
+    flex-grow: 2;
+    align-items: flex-start;
+    outline: 1px solid gray;
+    position: relative;
+}
+
+.email-list-container {
+    justify-content: center;
+    flex-grow: 7;
+    flex-direction: column;
+}
+
+.btn-new-email span {
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.unread {
+    font-weight: bold;
+}
+
+.unread-num {
+    color: crimson;
+}
+
+@media (max-width:770px) {
+    .main-container-mail {
+        flex-direction: column;
+    }
+}

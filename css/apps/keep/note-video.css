@@ -1,0 +1,12 @@
+.note-video:hover .edit-done{
+    visibility: visible;
+}
+.note-video:hover .edit{
+    visibility: visible;
+}
+.note-video iframe{
+    width: 100%;
+}
+.note-video img {
+    width: 25px;
+}

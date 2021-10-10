@@ -1,0 +1,30 @@
+.image{
+    display: inline-block;
+}
+
+
+.note-img img:not(:first-child){
+    width: 25px;
+
+}
+
+.note-img div:hover .edit{
+    visibility: visible;
+}
+
+.note-img:hover .edit-done{
+    visibility: visible;
+}
+.edit-done{
+    cursor: pointer;
+}
+.edit{
+    cursor: pointer;
+    visibility: hidden;
+}
+
+.image{
+    width: 100%;
+   
+    object-fit: cover;
+}

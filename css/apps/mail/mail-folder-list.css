@@ -1,0 +1,68 @@
+.menu-mail {
+    list-style: none;
+}
+
+.folder {
+    align-items: center;
+    gap: 4px;
+    margin-bottom: 4px;
+    cursor: pointer;
+    width: 200px;
+    margin: none;
+}
+
+.upper-menu-container-mail {
+    align-items: center;
+    gap: 20px;
+}
+
+.btn-new-email {
+    border-radius: 30px;
+    background-color: transparent;
+    margin-top: 5px;
+    align-self: center;
+    justify-items: center;
+    width: 150px;
+    height: 40px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.btn-folders {
+    display: none;
+}
+
+.folder:hover,
+.btn-new-email:hover {
+    background-color: rgb(255, 0, 0, 0.5);
+}
+
+.mark-folder {
+    background-color: rgb(255, 0, 0, 0.7);
+}
+
+.sort-select {
+    position: absolute;
+    bottom: 1px;
+    right: 5px;
+}
+
+@media (max-width:770px) {
+    .menu-mail {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+    }
+    .folder {
+        width: 80px;
+    }
+    .sort-select {
+        top: 1px;
+    }
+}
+
+@media (max-width:500px) {
+    .folder {
+        width: 60px;
+    }
+}

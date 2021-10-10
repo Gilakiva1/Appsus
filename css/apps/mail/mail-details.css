@@ -1,0 +1,15 @@
+.details-container {
+    flex-direction: column;
+    flex-grow: 7;
+    outline: 1px solid grey;
+    margin-right: 20px;
+}
+
+.datails-head-container {
+    flex-direction: column;
+}
+
+.details-header-container {
+    align-items: center;
+    justify-content: space-between;
+}

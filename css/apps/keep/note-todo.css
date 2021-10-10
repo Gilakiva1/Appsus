@@ -1,0 +1,31 @@
+
+.todos{
+    display: flex;
+    justify-content: space-between;
+}    
+
+.todo-complete{
+    text-decoration: line-through;
+}
+
+
+.todo-done{
+    cursor: pointer;
+    visibility: hidden;
+}
+.todo:hover .todo-done{
+    visibility: visible;
+}
+
+.edit{
+    cursor: pointer;
+    visibility: hidden;
+}
+
+.todo:hover .edit{
+    visibility: visible;
+}
+.todo img {
+    width: 20px;
+
+}

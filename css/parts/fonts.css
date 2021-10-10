@@ -1,0 +1,18 @@
+@font-face {
+    font-family: Poppins;
+    src: url('../fonts/Awesome/fa-brands-400.ttf');
+}
+
+@font-face {
+    font-family: Awesome;
+    src: url('../fonts/Awesome/fa-brands-400.ttf');
+}
+
+@font-face {
+    font-family: euro;
+    src: url(../fonts/euro/eurof55.ttf);
+}
+@font-face {
+    font-family: lato;
+    src: url(../fonts/lato/Lato-Regular.ttf)
+}
